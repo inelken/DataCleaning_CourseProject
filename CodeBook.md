@@ -1,13 +1,13 @@
 ### Data Dictionary, file meanSubjAct.txt
-Subject
+##### Subject
   Possible values: 1-30, factor
-Activity
+##### Activity
   Possible values: 
 WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING
 ##### Columns 3-68 contain the 68 mean and std measurements extracted from the Samsung dataset. For the meaning of the different variables, see the original dataset. The original names have been kept here:
 
-3 tBodyAcc-mean()-X
-4 tBodyAcc-mean()-Y
+##### 3 tBodyAcc-mean()-X
+##### 4 tBodyAcc-mean()-Y
 5 tBodyAcc-mean()-Z
 6 tBodyAcc-std()-X
 7 tBodyAcc-std()-Y
