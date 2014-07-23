@@ -1,6 +1,7 @@
 DataCleaning_CourseProject
 ==========================
 ### Description
+The instructions for the project are in https://class.coursera.org/getdata-005/human_grading/view/courses/972582/assessments/3/submissions. 
 The script run_analysis.R assumes that the data is located in a folder in the working directory as created by unzipping the data file given in the course website. To use another folder, change the variable basedir (first code line in the script).
 #### The script performs the following operations (list numbering corresponds to section numbers in the file):
 1. Prepapre human-readable variable names and activity names:
