@@ -2,7 +2,7 @@ DataCleaning_CourseProject
 ==========================
 ### Description
 The script run_analysis.R assumes that the data is located in a folder in the working directory as created by unzipping the data file given in the course website. To use another folder, change the variable basedir (first code line in the script).
-## The script performs the following operations (list numbering corresponds to section numbers in the file):
+#### The script performs the following operations (list numbering corresponds to section numbers in the file):
 1. Prepapre human-readable variable names and activity names:
 The variable names are read from the feature.txt file provided as part of the database, and a string matching is performed to identify all relevant variables - those with mean() and std() in their names.
 Activity names are coded by hand, according to the activity_label.txt file
