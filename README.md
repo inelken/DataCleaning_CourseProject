@@ -13,3 +13,7 @@ The relevant columns are extracted, human-readable columns names are assigned, a
 4. Merge train and test datasets, rearrange columns so that Subject is first column and Activity is second column
 5. Create the second tidy dataset:
 I melted the dataset by subject and activity, then used ddply to summarize and dcast to generate the final dataset.
+#### The output of the script 
+The final dataset is saved in the file meanSubjAct.txt in the working directory.
+####To read the dataset into the R workspace, use:
+mmm<-read.table("meanSubjAct.txt",sep=",",header=T)
